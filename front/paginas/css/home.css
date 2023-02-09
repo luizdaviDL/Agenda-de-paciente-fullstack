@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+.corpo{
+    background-color: rgb(160, 197, 197);
+    display: flex;
+
+}
+
+.menu .legenda{
+    margin: 1rem 1.5rem;
+    width: 20rem;
+}
+
+.vertical{
+    background-color: #FFFFFF;
+    width: 14rem;
+    height: 26rem;
+}
+/*------------------------------------------*/
+.topo{
+    background-color: #629FAC;
+    width: 50rem;
+    height: 3rem;
+}
+
+.topo .top_icones{
+   /* background-color: blueviolet;*/
+    width: 10rem;
+    margin-left: 30rem;
+    margin-top: 1rem;
+    color: white;
+}
+
+.topo .top_icones button{
+    margin-right: 2rem;
+    background-color: #DC0000;
+    border: none;
+    width: 3rem;
+    height: 1.8rem;
+    border-radius:  2rem;
+    color: rgb(223, 223, 223);
+}
+
+.corpo{
+    background-color: #EEE0E0;
+}
+
+.conteudo{
+    display: flex;
+}
+
+
+.agendas{
+    background-color: white;
+    margin: 1rem 1.80rem;
+    width: 25rem;
+    height: 20.5rem;
+}
+
+.calendario{
+    background-color: white;
+    width: 11rem;
+    height: 8rem;
+    margin-top: 1.8rem;
+}
+
+.estatistica{
+    background-color: white;
+    width: 11rem;
+    height: 8rem;
+    margin-top: 1.8rem;
+}
