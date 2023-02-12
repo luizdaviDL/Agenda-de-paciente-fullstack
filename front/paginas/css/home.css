@@ -11,42 +11,103 @@
 }
 
 .menu .legenda{
-    margin: 1rem 1.5rem;
+    /*background-color: aqua;*/
+    margin: 1.50rem .80rem;
     width: 20rem;
 }
 
+.menu .legenda h3{
+    font-size: 1.80rem;
+}
+
 .vertical{
+    /*background-color: #FFFFFF;*/
     background-color: #FFFFFF;
-    width: 14rem;
-    height: 26rem;
+    width: 18rem;
+    height:52rem;
 }
 /*------------------------------------------*/
 .topo{
+    display: flex;
     background-color: #629FAC;
-    width: 50rem;
-    height: 3rem;
+    width: 85rem;
+    height: 4rem;
 }
 
-.topo .top_icones{
-   /* background-color: blueviolet;*/
-    width: 10rem;
-    margin-left: 30rem;
-    margin-top: 1rem;
-    color: white;
+.elementos{
+   /* background-color: #bbb951;*/
+    width: 17rem;
+    display: flex;
+    position: absolute;
+    right: 0;
+    margin: 1rem 1rem;
+}
+.top_icones{
+   /* background-color: #11f11c;*/
+    width: 5rem;
+    margin: 0rem 2rem;
 }
 
-.topo .top_icones button{
-    margin-right: 2rem;
+.top_icones button{
+    margin-right: 5rem;
     background-color: #DC0000;
     border: none;
-    width: 3rem;
-    height: 1.8rem;
+    width: 5rem;
+    height: 2rem;
+    
     border-radius:  2rem;
     color: rgb(223, 223, 223);
 }
 
-.corpo{
-    background-color: #EEE0E0;
+.top_p{
+  /* background-color: aqua;*/
+    width: 7rem;
+    text-align: center;
+    padding: .25rem 0rem;
+   
+
+}
+
+.top_p h3{
+    color: white;
+    font-size: 1.30rem;
+}
+/*
+.topo .top_icones{
+    display: flex;
+   
+    width: 20rem;
+    margin-left: 70rem;
+    margin-top: .82rem;
+    color: white;
+}
+
+.topo .top_p{
+    background-color: #DC0000;
+    font-size: 1.5rem;
+    margin-right: 4rem;
+    width: 5rem;
+}
+
+.topo .top_icones{
+    
+    background-color: aquamarine;
+}
+.topo .top_icones button{
+    margin-right: 5rem;
+    background-color: #DC0000;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    
+    border-radius:  2rem;
+    color: rgb(223, 223, 223);
+}
+*/
+.corpo_conteudo{
+   background-color: #D6C8C8;
+   width: 100%;
+   height:48rem;
 }
 
 .conteudo{
@@ -55,22 +116,94 @@
 
 
 .agendas{
-    background-color: white;
-    margin: 1rem 1.80rem;
-    width: 25rem;
-    height: 20.5rem;
+    background-color: #FBEFEF;
+    margin: 2rem 2rem;
+    width: 50rem;
+    height: 44rem;
+}
+
+.agendas .pesquisa{
+    background-color: #FFFBFB;
+    height: 2rem;
+    width: 45rem;
+    margin-left: 2rem;
+    align-items: center;
+    border-radius: 3rem;
+    border: solid black .10rem;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+
+.agendas .pesquisa input{
+    margin-left: 1rem;
+    border: none;
+    font-size: 1.10rem;
+    margin-left: 1rem;
+    outline: none;
+    width: 42rem;
+}
+
+.agendas .titulo{
+    display: flex;
+    width: 20rem;
+    margin: 2rem 0rem;
+    justify-content: center;   
+    padding-left: 2rem;
+}
+
+.agendas .titulo h1{
+    font-size: 1.80rem;
 }
 
 .calendario{
     background-color: white;
-    width: 11rem;
-    height: 8rem;
-    margin-top: 1.8rem;
+    width: 25rem;
+    height: 15rem;
+    margin-top: 3.55rem;
 }
+
 
 .estatistica{
     background-color: white;
-    width: 11rem;
-    height: 8rem;
-    margin-top: 1.8rem;
+    width: 25rem;
+    height: 15rem;
+    margin-top: 3.55rem;
+}
+
+.agendas .botao{
+  
+    margin: 2rem 2rem;
+    display: flex;
+    height: 3rem;
+    /*justify-content: center;*/
+   
+}
+
+.agendas .botao .cadastrar{
+    margin-left: 2rem;
+}
+
+.agendas .botao .cadastrar button{
+ 
+    background-color: #387E76;
+    border: none;
+    width: 5.50rem;
+    height: 3rem;
+    border-radius:  .50rem;
+    color: rgb(223, 223, 223);
+    font-size: 1rem;
+}
+
+.agendas .botao .deletar button{
+    background-color: #DC0000;
+    border: none;
+    width: 5.50rem;
+    height: 3rem;
+    border-radius:  .50rem;
+    color: rgb(223, 223, 223);
+    font-size: 1rem;
+}
+
+.agendas .botao .deletar{
+    margin-left: 5rem;
 }
