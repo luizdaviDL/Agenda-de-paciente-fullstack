@@ -171,10 +171,10 @@
 }
 
 .agendas .botao{
-  
-    margin: 2rem 2rem;
+    margin: 2rem 0rem;
     display: flex;
     height: 3rem;
+    justify-content: center;
     /*justify-content: center;*/
    
 }
@@ -184,7 +184,6 @@
 }
 
 .agendas .botao .cadastrar button{
- 
     background-color: #387E76;
     border: none;
     width: 5.50rem;
@@ -204,6 +203,79 @@
     font-size: 1rem;
 }
 
+.agendas .botao .cancelar button{
+    background-color: #918307;
+    border: none;
+    width: 5.50rem;
+    height: 3rem;
+    border-radius:  .50rem;
+    color: rgb(223, 223, 223);
+    font-size: 1rem;
+}
+
 .agendas .botao .deletar{
     margin-left: 5rem;
+}
+
+.agendas .botao .cancelar{
+    margin-left: 5rem;
+}
+
+/*---------------------------------*/
+
+.agendas .agendamento{
+    background-color: #E8E0E0;
+    display: flex;
+    justify-content: center;
+    width: 39rem;
+    height: 2.35rem;
+    margin: 2.50rem 4.50rem;
+    border-radius: 3.50rem;
+}
+
+/*icone de agendamentos */
+.agendas .agendamento .presenca{ 
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #DC0000;
+    margin: .75rem .85rem;
+  /*  margin-right: 22rem;
+    margin-top: .75rem;*/
+}
+
+.agendas .agendamento .dados_agendas{
+   /* background-color: #629FAC;*/
+    display: flex;
+    width: 37rem;
+}
+
+.agendas .agendamento .dados_agendas .dados{
+    display: flex;
+  /*  background-color: #DC0000;*/
+    width: 100%;
+}
+
+.agendas .agendamento .dados_agendas .dados h4{
+    margin: .55rem .15rem ;
+    width: 7rem;
+    text-align: center;
+   /* background-color: aqua;*/
+}
+
+.agendas .agendamento .dados_agendas .dados a{
+    background-color: #629FAC;
+    width: 3.80rem;
+    margin: .25rem 1.75rem ;
+    border-radius: .25rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding-top: .25rem;
+}
+
+.agendas .agendamento .dados_agendas .dados input{
+    background-color: rgb(44, 126, 98);
+    margin: 0rem 2rem ;
 }
