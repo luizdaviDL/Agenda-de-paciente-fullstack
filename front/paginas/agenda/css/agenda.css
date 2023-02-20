@@ -315,3 +315,169 @@
     background-color: rgb(44, 126, 98);
     margin: 0rem 2rem ;
 }
+
+/*-------------Estatistica--------------------------------*/
+
+.estatistica .titulo{
+   /*background-color: #387E76;*/
+    margin-top: .85rem;
+}
+
+.estatistica .titulo h3{
+    text-align: center;
+    font-size: 1.55rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.estatistica .titulo hr{
+   margin-left: 5.25rem;
+}
+
+.estatistica .total{
+   /* background-color: #629FAC;*/
+    padding-left: 1.55rem;
+    padding-top: .55rem;
+    display: flex;
+}
+
+.estatistica .total h3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20rem;
+}
+
+.estatistica .total p{
+    margin-left: 1rem;
+   /* background-color: #D6C8C8;*/
+    width: 2rem;
+}
+
+.estatistica .dados{
+  /*  background-color: #918307;*/
+    margin-top: .75rem;
+    padding-left: 4rem;
+}
+
+/*---------Faltas Estatistica------------*/
+.estatistica .dados .faltas{
+    display: flex;
+}
+
+.estatistica .dados .faltas .dados_estatistica{
+  /*  background-color: #DC0000;*/
+    display: flex;
+    width: 15rem;
+    padding-top: .35rem;
+}
+
+.estatistica .dados .faltas .dados_estatistica p{
+    margin-left: 10rem;
+}
+
+.estatistica .dados .faltas .icone .faltas_icone{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #DC0000;
+    margin: .75rem .85rem;
+}
+
+/*-------------------------------------------------*/
+
+/*---------Presenca Estatistica------------*/
+.estatistica .dados .presenca{
+    display: flex;
+}
+
+.estatistica .dados .presenca .dados_estatistica{
+  /*  background-color: #DC0000;*/
+    display: flex;
+    width: 15rem;
+    padding-top: .35rem;
+}
+
+.estatistica .dados .presenca .dados_estatistica p{
+    margin-left: 8.80rem;
+}
+
+.estatistica .dados .presenca .icone .presenca_icone{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #135048;
+    margin: .75rem .85rem;
+}
+
+/*-------------------------------------------------*/
+
+/*---------Remarcada Estatistica------------*/
+.estatistica .dados .remarcada{
+    display: flex;
+}
+
+.estatistica .dados .remarcada .dados_estatistica{
+  /*  background-color: #DC0000;*/
+    display: flex;
+    width: 15rem;
+    padding-top: .35rem;
+}
+
+.estatistica .dados .remarcada .dados_estatistica p{
+    margin-left: 7.78rem;
+}
+
+.estatistica .dados .remarcada .icone .remarcada_icone{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #B9B20B;
+    margin: .75rem .85rem;
+}
+
+/*-------------------------------------------------*/
+/*-----------------------
+.estatistica .dados .faltas{
+   display: flex;
+   margin-bottom: 1rem;
+   background-color: #DC0000;
+}
+
+.estatistica .dados .faltas p{
+    margin-left: 10rem;
+}
+
+
+/*------------------------
+
+.estatistica .dados .presenca{
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: #DC0000;
+ }
+ 
+ .estatistica .dados .presenca p{
+     margin-left: 8.78rem;
+ }
+
+ /*---------------------
+
+ /*---------------
+
+.estatistica .dados .remarcadas{
+    display: flex;
+    margin-bottom: 1rem;
+    background-color: #DC0000;
+ }
+ 
+ .estatistica .dados .remarcadas p{
+     margin-left: 7.40rem;
+ }
+
+ /*--------------
+   width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #DC0000;
+    margin: .75rem .85rem;
+ 
+ 
+ --------------*/  
