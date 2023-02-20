@@ -26,7 +26,41 @@
     width: 18rem;
     height:52rem;
 }
-/*------------------------------------------*/
+
+.vertical .navbar{
+   /* background-color: #629FAC;*/
+    width: 19rem;
+    margin: 3rem 0rem/*2.78rem*/;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.vertical .navbar a{
+    display: block;
+    text-decoration: none;
+ /*  background-color: #DC0000;*/
+    margin-top: 2rem ;
+    padding-right: 5rem;
+    height: 2.75rem;
+    padding-top: .95rem;
+    text-align: center;
+    font-size: 1.40rem;
+    color: #020202;
+   
+}
+
+.vertical .navbar a:hover{
+        color: #629FAC;
+        transition: .2s;
+}
+
+.vertical .navbar a.link_agenda{
+    background-color: #F0E5E5;
+} 
+/*
+.vertical .navbar a.link_paciente{
+    background-color: #F0E5E5;
+} */
+/*------------Topo------------------------------*/
 .topo{
     display: flex;
     background-color: #629FAC;
@@ -104,6 +138,8 @@
     color: rgb(223, 223, 223);
 }
 */
+
+/*------------corpo----------------------------*/
 .corpo_conteudo{
    background-color: #D6C8C8;
    width: 100%;
