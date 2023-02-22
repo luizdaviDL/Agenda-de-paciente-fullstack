@@ -369,8 +369,10 @@
     padding-top: .35rem;
 }
 
+
 .estatistica .dados .faltas .dados_estatistica p{
     margin-left: 10rem;
+    width: 2rem;
 }
 
 .estatistica .dados .faltas .icone .faltas_icone{
@@ -397,7 +399,10 @@
 
 .estatistica .dados .presenca .dados_estatistica p{
     margin-left: 8.80rem;
+    width: 2rem;
 }
+
+
 
 .estatistica .dados .presenca .icone .presenca_icone{
     width: 12px;
@@ -423,6 +428,7 @@
 
 .estatistica .dados .remarcada .dados_estatistica p{
     margin-left: 7.78rem;
+    width: 2rem;
 }
 
 .estatistica .dados .remarcada .icone .remarcada_icone{
