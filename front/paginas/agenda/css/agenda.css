@@ -3,11 +3,137 @@
     padding: 0;
     overflow-x: hidden; 
 }
+/*------fade-----------*/
+.fade{
+    background-color: rgba(0, 0, 0,0.6);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    z-index: 5;
+}
+
+.fade .formulario{
+    background: #EFEFEF;
+    width: 40rem;
+    height: 30rem;
+    transform: translate(70%,30%);
+}
+.fade .formulario .titulo{
+    background-color: #629FAC;
+    height: 5rem;
+}
+
+.fade .formulario .titulo h1{
+    color: #000000;
+    text-align: center;
+    padding-top: 1.25rem;
+}
+
+/*#########  Fomulario  ##########*/
+
+.fade form input{
+    margin: 1rem 0rem;
+}
+.fade form .paciente{
+    width: 30rem;
+    height: 1rem;
+    outline: none;
+    /*Comando para colocar elemento input ao centro*/
+    display: block;
+    margin: 1rem auto;
+    border-radius: .50rem;
+}
+
+/*-----------------*/
+.fade form .consulta{
+    width: 10rem;
+    height: 2rem;
+    margin-left:3.70rem ;
+    border-radius: .50rem;
+    margin-bottom: 1rem;
+}
+
+.fade form .nome{
+    width: 10rem;
+    height: 2rem;
+    margin-left:3.70rem ;
+    border-radius: .50rem;
+    margin-bottom: 1rem;
+}
+
+/**-------------------------*/
+.fade form .marcar{
+    display: flex;
+    padding-left:3.50rem ;
+
+}
+
+.fade form .marcar input{
+    margin: 0rem .25rem;
+   
+}
+
+/*######## Data e hora ########*/
+.fade form .marcar data{
+    width: 7rem;
+    height: 2rem;
+    /*Comando para colocar elemento input ao centro*/
+    border-radius: .50rem;
+}
+
+.fade form .marcar .hora{
+    width: 7rem;
+    height: 2rem;
+    /*Comando para colocar elemento input ao centro*/
+    border-radius: .50rem;
+}
+
+.fade form .butao{
+    width: 30rem;
+   
+    height: 6rem;
+    margin: 5rem 5rem;
+}
+
+.fade form .butao .bt{
+   
+    width: 18rem;
+    justify-content: center;
+    margin-left: 5rem;
+}
+
+.fade form .butao .salvar{
+    width: 6rem ;
+    height: 2.50rem;
+    background-color: #387E76;
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem;
+    border-radius: .50rem;
+}
+
+.fade form .butao .cancelar{
+    width: 6rem ;
+    height: 2.50rem;
+    background-color: #DC0000;
+    color: white;
+    font-size: 1rem;
+    margin-left: 2rem;
+    border-radius: .50rem;
+}
+
+
+
+
+
+
+/*-------------------------*/
 
 .corpo{
     background-color: rgb(160, 197, 197);
     display: flex;
-
+    
 }
 
 .menu .legenda{

@@ -9,7 +9,51 @@
 </head>
 <body>
 
+   
    <div class="corpo">
+
+     <!----------fade------------>
+     <div class="fade">
+        <div class="formulario">
+           <div class="titulo">
+                <h1>Agendar</h1>
+           </div>
+           <!------formulario------------>
+           <div class="formu">
+                <form action="">
+                                                                                <!--- colocar placeholder no centro e tamanho da letra ------------->
+                    <input class="paciente" type="text" placeholder="Paciente rg" style="padding: .75rem; font-size: 1rem;" >
+                    <div class="sele">
+                        <select class="consulta">
+                            <option value="0" selected disabled>Consulta</option>
+                            <option value="tipo">tipo</option>
+                            <option value="tipo">tipo</option>
+                        </select>
+                    </div>
+                    <div class="medico">
+                        <select class="nome">
+                            <option value="0" selected disabled>Medico</option>
+                            <option value="tipo">tipo</option>
+                            <option value="tipo">tipo</option>
+                        </select>
+                    </div>
+                    <div class="marcar">
+                        <input class="data" type="date" placeholder="data">
+                        <input class="hora" type="time" placeholder="hora">
+                    </div>
+
+                    <div class="butao">
+                        <div class="bt">
+                            <button class="salvar">Salvar</button> 
+                        <button class="cancelar">Cancelar</button> 
+                        </div>
+                    </div>
+                </form>
+           </div>
+
+        </div>
+    </div>
+    
     <!------------------------------------->
         <div class="vertical">
             <section class="menu">
@@ -56,7 +100,7 @@
                         <!----------------------->
                         <div class="botao">
                             <div class="cadastrar">
-                                <button>Cadastrar</button>
+                                <button>Agendar</button>
                             </div>
                             <div class="deletar">
                                 <button>Deletar</button>
